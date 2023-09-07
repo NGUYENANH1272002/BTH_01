@@ -1,6 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("xin chao");
-int a = 9;
-Console.WriteLine("a=" + a);
-    
+﻿internal class Program
+{
+    private static void Main(String[] args)
+    {
+        const int a = 10;
+        int b;
+      System.Console.Write("gia tri b la: " );
+        b=Convert.ToInt32(Console.ReadLine());
+        int c = a + b;
+        System.Console.WriteLine("c=" + c);
+    }
+}
