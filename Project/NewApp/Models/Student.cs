@@ -1,5 +1,5 @@
-namespace NewApp.Models
- {
+namespace NewApp.Models;
+ 
  public class Students  {
         public string Name {get;set;}
         public string Address {get; set;}
@@ -22,4 +22,4 @@ namespace NewApp.Models
 
       
     }
- }
+ 

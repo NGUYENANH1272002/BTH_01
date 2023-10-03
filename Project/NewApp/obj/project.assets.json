@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\Phát triển phần mềm quản lí\\BTH_01\\Project\\NewApp\\NewApp.csproj",
+      "projectUniqueName": "F:\\PTPMQL\\BTH_01\\Project\\NewApp\\NewApp.csproj",
       "projectName": "NewApp",
-      "projectPath": "f:\\Phát triển phần mềm quản lí\\BTH_01\\Project\\NewApp\\NewApp.csproj",
+      "projectPath": "F:\\PTPMQL\\BTH_01\\Project\\NewApp\\NewApp.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "f:\\Phát triển phần mềm quản lí\\BTH_01\\Project\\NewApp\\obj\\",
+      "outputPath": "F:\\PTPMQL\\BTH_01\\Project\\NewApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

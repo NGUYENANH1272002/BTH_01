@@ -1,5 +1,5 @@
-namespace NewApp.Models
- {
+namespace NewApp.Models;
+ 
  public class Fruit {
         public string FruitName {get;set;}
         public string Infor {get; set;}
@@ -12,4 +12,4 @@ namespace NewApp.Models
             return TT;
         }
  }
- }
+ 

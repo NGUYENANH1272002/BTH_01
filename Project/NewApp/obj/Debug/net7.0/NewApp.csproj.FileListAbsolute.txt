@@ -12,3 +12,24 @@ C:\BTH_01\Project\NewApp\obj\Debug\net7.0\refint\NewApp.dll
 C:\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.pdb
 C:\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.genruntimeconfig.cache
 C:\BTH_01\Project\NewApp\obj\Debug\net7.0\ref\NewApp.dll
+F:\Phát triển phần mềm quản lí\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\Phát triển phần mềm quản lí\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfoInputs.cache
+F:\Phát triển phần mềm quản lí\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfo.cs
+F:\Phát triển phần mềm quản lí\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.csproj.CoreCompileInputs.cache
+F:\Phát triển phần mềm quản lí\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.dll
+F:\Phát triển phần mềm quản lí\BTH_01\Project\NewApp\obj\Debug\net7.0\refint\NewApp.dll
+F:\Phát triển phần mềm quản lí\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.pdb
+F:\PTPMQL\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\PTPMQL\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfoInputs.cache
+F:\PTPMQL\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfo.cs
+F:\PTPMQL\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.csproj.CoreCompileInputs.cache
+F:\PTPMQL\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.dll
+F:\PTPMQL\BTH_01\Project\NewApp\obj\Debug\net7.0\refint\NewApp.dll
+F:\PTPMQL\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.pdb
+F:\PTPMQL\BTH_01\Project\NewApp\bin\Debug\net7.0\NewApp.exe
+F:\PTPMQL\BTH_01\Project\NewApp\bin\Debug\net7.0\NewApp.deps.json
+F:\PTPMQL\BTH_01\Project\NewApp\bin\Debug\net7.0\NewApp.runtimeconfig.json
+F:\PTPMQL\BTH_01\Project\NewApp\bin\Debug\net7.0\NewApp.dll
+F:\PTPMQL\BTH_01\Project\NewApp\bin\Debug\net7.0\NewApp.pdb
+F:\PTPMQL\BTH_01\Project\NewApp\obj\Debug\net7.0\NewApp.genruntimeconfig.cache
+F:\PTPMQL\BTH_01\Project\NewApp\obj\Debug\net7.0\ref\NewApp.dll

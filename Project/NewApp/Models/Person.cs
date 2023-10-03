@@ -1,5 +1,5 @@
-namespace NewApp.Models
-{
+namespace NewApp.Models;
+
     public class Person
     {
         public string FullName  {get; set;}
@@ -16,4 +16,3 @@ namespace NewApp.Models
         System.Console.WriteLine("{0} + {1} + {2}" , FullName, Address, Age);
     }
  }
-}

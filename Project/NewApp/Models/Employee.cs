@@ -1,4 +1,4 @@
-{
+
  public class Employee {
         public string FullName {get;set;}
         public string Address {get; set;}
@@ -11,6 +11,9 @@
             Address ="Dia chi";
             EmployeeID ="Ma nv";
         }
+    
+
+
         public int TinhLuong(int LuongCB)
             {
                 
@@ -19,4 +22,4 @@
             }
          
     }
- }
+ 
