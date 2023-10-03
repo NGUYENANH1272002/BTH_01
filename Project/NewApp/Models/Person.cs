@@ -10,6 +10,14 @@ namespace NewApp.Models;
         int yearOfBirth = 2023-age;
         return yearOfBirth;
     }
+    public void Nhap(){
+            System.Console.Write("FullName: ");
+            FullName = Console.ReadLine();
+            System.Console.Write("Address: ");
+            Address = Console.ReadLine();
+
+        }
+    
 
     public void HienThi()
     {
