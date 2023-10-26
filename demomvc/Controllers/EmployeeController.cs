@@ -1,14 +1,15 @@
+using demomvc.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace demomvc.Controllers;
-public class DemoController : Controller{
+public class EmployeeController : Controller{
     public IActionResult Index(){
         return View();
 
     }
     [HttpPost]
-     public IActionResult Index(string fName, string ABC){
-        string  str = "hello " + fName + "-" + ABC;
+     public IActionResult Index(Employee emp){
+        string  str = "hello " + emp.EmployeeID + "-" + emp.FullName;
         ViewBag.L=str;
         return View();
 
