@@ -1,6 +1,9 @@
 namespace demomvc.Models{
-    public class Employee{
-        public string EmployeeID { get; set; }
-        public string FullName { get; set; }
+   
+    public class Employee : Person{
+         public String PersonID { get; set; }
+        public String FullName { get; set; }
+        public String EmployeeID { get; set; }
+        public int  Age  { get; set; }
     }
 }
