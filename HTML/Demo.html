@@ -6,29 +6,31 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+th {
+  text-align: left;
+}
 </style>
 </head>
 <body>
 <h1>Nguyễn Thị Vân Anh - 2021050085</h1>
+<h2>Left-align Headers</h2>
 
-<h2>Vertical Table Headers</h2>
-
-<p>The first column becomes table headers if you set the first table cell in each table row to a TH element:</p>
+<p>To left-align the table headers, use the CSS text-align property.</p>
 
 <table style="width:100%">
   <tr>
     <th>Firstname</th>
-    <td>Jill</td>
-    <td>Eve</td>
-  </tr>
-  <tr>
     <th>Lastname</th>
-    <td>Smith</td>
-    <td>Jackson</td>
+    <th>Age</th>
   </tr>
   <tr>
-    <th>Age</th>  
+    <td>Jill</td>
+    <td>Smith</td>
     <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
     <td>94</td>
   </tr>
 </table>
