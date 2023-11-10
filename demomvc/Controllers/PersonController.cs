@@ -56,7 +56,7 @@ namespace demomvc.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PersonID,FullName,Address")] Person person)
+        public async Task<IActionResult> Create([Bind("PersonID,FullName,Address,Age")] Person person)
         {
             if (ModelState.IsValid)
             {
@@ -88,7 +88,7 @@ namespace demomvc.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("PersonID,FullName,Address")] Person person)
+        public async Task<IActionResult> Edit(string id, [Bind("PersonID,FullName,Address,Age")] Person person)
         {
             if (id != person.PersonID)
             {
