@@ -1,9 +1,11 @@
 @model demomvc.Models.Person
+
 @{
     ViewData["Title"] = "Edit";
 }
+
 <div class="w3-row">
-    <b>Person/</b>Edit
+    <h1><b>Person/</b>Edit</h1>
 </div>
 <hr />
 <div class="max-width-40 ud-center">
@@ -19,12 +21,7 @@
                 <input asp-for="FullName" class="form-control" />
                 <span asp-validation-for="FullName" class="text-danger"></span>
             </div>
-            <div class="w3-col l3 w3-right">
-                <label asp-for="Age" class="control-label"></label>:
-                <input asp-for="Age" class="form-control" />
-                <span asp-validation-for="Age" class="text-danger"></span>
-            </div>
-            </div>
+        </div>
         <div class="w3-row w3-margin-top">
             <label asp-for="Address" class="control-label"></label>
             <input asp-for="Address" class="form-control" />
@@ -37,6 +34,8 @@
         </div>
     </form>
 </div>
+
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

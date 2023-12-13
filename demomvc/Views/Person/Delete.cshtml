@@ -1,11 +1,20 @@
 @model demomvc.Models.Person
+
 @{
     ViewData["Title"] = "Delete";
 }
-
-@{
+@* 
 <h1>Delete</h1>
 
+<h3>Are you sure you want to delete this?</h3> *@
+<div class="w3-row">
+    <h1><b>Person/</b>Delete</h1>
+</div>
+<hr />
+<div class="max-width-40 ud-center">
+    <div class="w3-container w3-red w3-round">
+        <h2 class="w3-center">Are you sure you want to delete this?</h2>
+    </div>
     <div class="w3-container w3-card-4">
         <dl class="w3-row w3-margin-top">
             <dt class="w3-col l2">
@@ -14,13 +23,6 @@
             <dd class="w3-col l3">
                 @Html.DisplayFor(model => model.FullName)
             </dd>
-
-            <dd class="w3-col l1 w3-right">
-                @Html.DisplayFor(model => model.Age)
-            </dd>
-            <dt class="w3-col l1 w3-right">
-                @Html.DisplayNameFor(model => model.Age):
-            </dt>
         </dl>
         <dl class="w3-row">
             <dt class="w3-col l2">
@@ -43,10 +45,7 @@
             </div>
         </div>
     </div>
-    @* <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FullName)
-        </dt>
-         *@
-
-}
+    
+    
+    
+</div>

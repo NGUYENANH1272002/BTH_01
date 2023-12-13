@@ -4,10 +4,13 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <div class="w3-container">
     <div class="w3-row">
-        <b>People/</b>index
-        <a asp-action="Create" class="w3-btn w3-border w3-border-blue w3-round w3-right w3-tiny w3-horver-blue">+ Add new</a>
+        <h1>Index</h1>
+        <a asp-action="Create" class="w3-btn w3-border w3-border-blue w3-round w3-tiny w3-horver-blue">+ Add new</a>
+        <a asp-action="Download" class="w3-btn w3-border w3-border-blue w3-round w3-right w3-tiny w3-horver-blue">Download</a>
+
     </div>
     <hr/>
     <table class="w3-table-all w3-card-4 w3-centered">
@@ -15,7 +18,6 @@
             <tr class="w3-blue">
                 <th class="w3-col l2">PersonID</th>
                 <th class="w3-col l4">Full Name</th>
-                <th class="w3-col l2">Age</th>
                 <th class="w3-col l2">Address</th>
                 <th class="w3-col l2">Action</th>
             </tr>
@@ -26,7 +28,6 @@
                 <tr>
                     <td class="w3-col l2">@item.PersonID</td>
                     <td class="w3-col l4">@item.FullName</td>
-                    <td class="w3-col l2">@item.Age</td>
                     <td class="w3-col l2">@item.Address</td>
                     <td class="w3-col l2">
                         <a asp-action="Edit" asp-route-id="@item.PersonID" class="w3-button w3-green w3-round-large w3-small"><i class="fa fa-edit"></i></a>

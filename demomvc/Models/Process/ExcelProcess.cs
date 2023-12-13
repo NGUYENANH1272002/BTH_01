@@ -1,6 +1,6 @@
 using System.Data;
 using OfficeOpenXml;
-namespace Firtmvc.Models.Process
+namespace demomvc.Models.Process
 {
     public class ExcelProcess
     {

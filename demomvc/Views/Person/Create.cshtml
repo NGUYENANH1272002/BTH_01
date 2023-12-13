@@ -4,21 +4,17 @@
     ViewData["Title"] = "Create";
 }
 
-
 <div class="w3-row">
-    <b>Person/</b>create
+    <H1><b>Person/</b>create</H1>
 </div>
 <hr>
-    <form asp-action="Upload" enctype="multipart/form-data">
-        <div class="row form-control">
-            <label class="col-sm-2">Import data from Excel:</label>
-            <input type="file" name="file" class="col-sm-4">
-            <input type="submit" value="Upload" class="btn btn-primary">
-        </div>
-    </form>
 <div class="max-width-40 ud-center">
-    <div class="w3-container w3-teal">
-        <h2>Create new Student</h2>
+    <div class=" w3-container w3-teal">
+        <h2>Create new Person</h2>
+       <form asp-action="Upload" enctype="multipart/form-data">
+            <input type="file" name="file" class="col-sm-4">
+            <input type="submit" value="Upload" class="btn btn-primary w3-btn w3-border w3-border-blue w3-round w3-tiny w3-horver-blue">
+        </form>
     </div>
     <form asp-action="Create" class="w3-container w3-card-4 w3-padding">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -30,27 +26,17 @@
             </div>
             <div class="w3-col l8 w3-right">
                 <label asp-for="FullName" class="control-label"></label>
-                
                 <input asp-for="FullName" class="w3-input w3-border w3-border-blue w3-round" />
                 <span asp-validation-for="FullName" class="text-danger"></span>
             </div>
-            
-        </div>
-        <div class="w3-row">
-            <div class="w3-col l3">
-                <label asp-for="Age" class="control-label"></label>
-                
-                <input asp-for="Age" class="w3-input w3-border w3-border-blue w3-round" />
-                <span asp-validation-for="Age" class="text-danger"></span>
-            </div>
+           
+
             
             <div class="w3-col l8 w3-right">
                 <label asp-for="Address" class="control-label"></label>
-               
                 <input asp-for="Address" class="w3-input w3-border w3-border-blue w3-round" />
                 <span asp-validation-for="Address" class="text-danger"></span>
             </div>
-            
         </div>
         <div class="w3-margin-top">
             <a class="w3-btn w3-round w3-green w3-card-4" asp-action="Index">Quay lại</a>
@@ -60,7 +46,6 @@
 </div>
 
 
-
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-    }
+}
