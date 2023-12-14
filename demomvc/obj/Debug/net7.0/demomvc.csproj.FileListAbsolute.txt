@@ -284,3 +284,7 @@ F:\PTPMQL\BTH_01\demomvc\bin\Debug\net7.0\demomvc.dll
 F:\PTPMQL\BTH_01\demomvc\bin\Debug\net7.0\demomvc.pdb
 F:\PTPMQL\BTH_01\demomvc\obj\Debug\net7.0\demomvc.genruntimeconfig.cache
 F:\PTPMQL\BTH_01\demomvc\obj\Debug\net7.0\ref\demomvc.dll
+F:\PTPMQL\BTH_01\demomvc\obj\Debug\net7.0\demomvc.MvcApplicationPartsAssemblyInfo.cs
+F:\PTPMQL\BTH_01\demomvc\bin\Debug\net7.0\JetBrains.Annotations.dll
+F:\PTPMQL\BTH_01\demomvc\bin\Debug\net7.0\X.PagedList.dll
+F:\PTPMQL\BTH_01\demomvc\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll

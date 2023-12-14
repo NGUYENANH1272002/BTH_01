@@ -1,9 +1,12 @@
+using Azure;
 using demomvc.Data;
 using demomvc.Models;
 using demomvc.Models.Process;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using OfficeOpenXml;
+using X.PagedList;
 
 namespace DemoMvc.Controllers{
     public class PersonController : Controller
@@ -13,8 +16,22 @@ namespace DemoMvc.Controllers{
             _context=context;
         }
          private ExcelProcess _excelPro = new ExcelProcess();
-        public async Task<IActionResult> Index(){
-            var model = await _context.Person.ToListAsync();
+        public async Task<IActionResult> Index(int? page)
+        {
+            ViewBag.PageSize = new List<SelectListItem>();
+            {
+                new SelectListItem() { Valuee="3",Text= "3"}
+                new SelectListItem() { Valuee="5",Text= "5"}
+                new SelectListItem() { Valuee="10",Text= "10"}
+                new SelectListItem() { Valuee="15",Text= "15"}
+                new SelectListItem() { Valuee="20",Text= "20"}
+                new SelectListItem() { Valuee="25",Text= "25"}
+                new SelectListItem() { Valuee="30",Text= "30"}
+        
+            }
+            int PageSize = {PageSize ?? 3};
+            ViewBag.psize = PageSize;
+            var model = _context.Person.ToList().ToPagedList(page ?? 1, 5);
             return View(model);
         }
         public IActionResult Create(){
